@@ -30,7 +30,7 @@ jobs:
     - id: 'get-credentials'
       uses: 'google-github-actions/get-gke-credentials@v0'
       with:
-        cluster_name: 'sf-demo-01'
+        cluster_name: 'sf-demo-02'
         location: 'us-central1'
 
     # Deploy the Docker image to the GKE cluster
