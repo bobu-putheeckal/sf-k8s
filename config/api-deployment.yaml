@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: bobput/sf-demo-api:3cb7ebce61651b8229010658f9bc87e12d8a6bd7
+          image: bobput/sf-demo-api:8ae42dc1a862864b0bad7edaf5aaf9f09e027503
           env:
             - name: PORT
               value: "3000"
