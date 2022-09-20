@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: ui
-          image: bobput/sf-demo-ui:bf4e9821555d22168323efcd6984382d0275752f
+          image: bobput/sf-demo-ui:73d0c4a97e8d2b4b58dae18a489d3ec59c3c081d
           ports:
             - containerPort: 80
               name: ui
